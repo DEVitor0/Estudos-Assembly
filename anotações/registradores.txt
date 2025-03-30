@@ -3,3 +3,13 @@ RAX	Guarda o número da syscall (ex: 1 = escrever, 60 = sair)
 RDI	1º argumento (ex: onde escrever? 1 = tela)
 RSI	2º argumento (ex: qual mensagem?)
 RDX	3º argumento (ex: tamanho da mensagem)
+
+-=-=-=-=-=-=RAX
+RAX == 0 (sys_read) 
+RAX == 1 (sys_write) 
+RAX == 60 (sys_exit)
+
+-=-=-=-=-=-=RDI
+RAX == 0 (sys_read) && RDI == 0 (ler teclado)
+RAX == 1 (sys_write) && RDI == 1 (imprimir na tela)
+RAX == 60 (sys_exit) && RDI == 0 (cód. sucesso)
