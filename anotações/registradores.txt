@@ -1,0 +1,5 @@
+Registrador	Uso Principal
+RAX	Guarda o número da syscall (ex: 1 = escrever, 60 = sair)
+RDI	1º argumento (ex: onde escrever? 1 = tela)
+RSI	2º argumento (ex: qual mensagem?)
+RDX	3º argumento (ex: tamanho da mensagem)

@@ -1,0 +1,2 @@
+nasm -f elf64 arquivo.asm -o arquivo.o
+ld arquivo.o -o arquivo
